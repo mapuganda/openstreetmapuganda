@@ -6,7 +6,7 @@
 		$comments=$_POST['comments'];
 		
 		
-		$to='mylife.derrick@gmail.com';
+		$to='hillary.musundi@mapuganda.org';
 		$subject='Form submission';
 		$message="Name: ".$name."\n"."Phone: ".$phone."\n"."Wrote the following: "."\n\n".$comments;
 		$headers="From: ".$email;
