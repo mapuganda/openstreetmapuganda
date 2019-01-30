@@ -219,19 +219,23 @@ iframe{
 	text-transform:lowercase;
 }
 
-.abouttext{
+/*.abouttext{
 	padding-bottom:5px;
 	margin-bottom:-200px;
 	
 }
-
+*/
 .visionsize{
-font-size:20px;
+	font-size:20px;
+	color: white;
 }
 
 .bgcolor{
 	background-color:#808080;
 	
+}
+.aboutcolor {
+	background-color: #42b8d4; 
 }
 
 /* ==================================================
