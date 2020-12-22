@@ -151,13 +151,5 @@ d.parent(".dropdown-menu").length&&(d=d.closest("li.dropdown").addClass("active"
         $.fn[NAME$a] = JQUERY_NO_CONFLICT$a;
         return Toast._jQueryInterface;
     };        
-//Initialize your slider in your script file
-$("#carousel-wrapper").slick({
-    arrows: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    mobileFirst: true
-});
+//slider//
+$('.single-item').slick();
