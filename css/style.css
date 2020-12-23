@@ -4146,3 +4146,7 @@ only screen and (                min-resolution: 2dppx) {
 		display:block;
 	}
 }
+/*background colour for container fluid for counter*/
+.container-fluid{
+	background-color: #0066FF;
+}
