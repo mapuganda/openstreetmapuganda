@@ -33,6 +33,7 @@
 <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -43,6 +44,7 @@
 <script src="js/modernizr.js"></script><!-- Modernizr -->
 <!-- Heat Map for Statistics -->
 <!-- Hotjar Tracking Code for http://mapuganda.org/ -->
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -52,6 +54,13 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script>
+function myFunction() {
+  document.getElementById("map").style.border = "thick solid #000000";
+
+}
 </script>
 </head>
 <body class="home header-style2">
@@ -156,7 +165,12 @@
             </div>
         </div>
     </div>
-                	<div class="row"align="center">
+
+   <div align="center">
+      
+   </div>
+                	
+                    <div class="row"align="center">
                         <div class="col-md-4 col-sm-4">
                     <br><br>
                     	<h4>Location</h4>
