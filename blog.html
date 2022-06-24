@@ -1,670 +1,346 @@
-<!DOCTYPE HTML>
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134237724-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<meta charset="utf-8">
+<meta content="width=device-width" initial-scale="1.0" name="viewport">
+<title>OSM Uganda - Blog</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
 
-  gtag('config', 'UA-134237724-1');
-</script>
-<!-- Basic Page Needs
-  ================================================== -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Blog - OpenStreetMap Uganda</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
-<!-- Mobile Specific Metas
-  ================================================== -->
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<meta name="format-detection" content="telephone=no">
+<!-- Favicons -->
+<link href="assets/img/Logo.png" rel="icon">
+<link href="assets/img/Logo.png" rel="apple-touch-icon">
 
-<!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-<!-- CSS
-  ================================================== -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
-<link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
-<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
-<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
-<!-- Color Style -->
-<link class="alt" href="colors/color1.css" rel="stylesheet" type="text/css">
-<link href="style-switcher/css/style-switcher.css" rel="stylesheet" type="text/css">
-<!-- SCRIPTS
-  ================================================== -->
-<script src="js/modernizr.js"></script><!-- Modernizr -->
-<!-- Heat Map for Statistics -->
-<!-- Hotjar Tracking Code for http://mapuganda.org/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2205618,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<script data-ad-client="ca-pub-9181039075646518" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body class="home header-style2">
-<!--[if lt IE 7]>
-	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-<![endif]-->
-<div class="body">
-	<!-- Topbar -->
-    <header class="topbar">
-    	<div class="container">
-            <ul class="social-icons topmenu pull-right">
-                <li class="facebook"><a href="https://www.facebook.com/mapuganda/"><i class="fa fa-facebook-f"></i></a></li>
-                <li class="twitter"><a href="https://twitter.com/mapuganda"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-            
-            <div class="header-info-col pull-right">
-              	<i class="fa fa-envelope-o"></i> <strong>info@mapuganda.org</strong>
-            </div>
-        </div>
-    </header>
-	<!-- Site Header Wrapper -->
-    <div class="site-header-wrapper">
-        <!-- Site Header -->
-        <header class="site-header">
-            <div class="container">
-                <div class="site-logo">
-                    <a href="index.html" class="default-logo"><img src="images/updatelogo.png" alt="Logo" style="margin-left: 50px;"></a>
-                    <a href="index.html" class="default-retina-logo"><img src="images/updatelogo.png" alt="Logo" width="199" height="30" style="margin-left: 50px;"></a>
-                    <a href="index.html" class="sticky-logo"><img src="images/updatelogo.png" alt="Logo" style="margin-left: 50px;"></a>
-                    <a href="index.html" class="sticky-retina-logo"><img src="images/updatelogo.png" alt="Logo" width="199" height="30" style="margin-left: 50px;"></a><strong>OpenStreetMap Uganda</strong>
-                </div>
-             	<a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
-                <ul class="sf-menu dd-menu pull-right" role="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a>
-                        <ul>
-                            <li><a href="staff.html">Staff</a></li>
-                            <li><a href="board.html">Board</a></li>
-                            <li><a href="history.html">Our History</a></li>   
-                        </ul>
-                    </li>
-                    <li><a href="activities.html">Activities</a>
-                        <ul>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="training.html">Training Services</a></li> 
-                        </ul>
-                    </li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="gallery.html">Gallery</a>
-                  <ul>
-                       <li><a href="infoproducts.html">Information Products</a></li>
-                        </ul>
-                  </li>
-                    <li><a href="careers.html">Careers/Jobs</a></li>
-                    <li><a href="membership.html">Membership</a></li>		
-                    <li><a href="blog.html">Blog</a> </li>
-                    <li><a href="contact.html">Contact</a></li>
-                    
-                    <button class="button" id="donate" data-toggle="modal" data-target="#DonateModal">Donate</button>
-              	</ul>
-            </div>
-        </header>
-    </div>
-    <!-- Hero Area -->
-    <div class="hero-area">
-    	<div class="page-banner parallax" style="background-image:url(images/blog.jpg);">
-        	<div class="container">
-            	<div class="page-banner-text">
-        			<h1>Blogs</h1>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Main Content -->
-    <div id="main-container">
-    	<div class="content">
-        <div class="spacer-50"></div>
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-md-8 content-block">
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="photomap.html" class="media-box grid-featured-img">
-                                        <img src="images/photomap.jpg" alt="Morish Blog">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="photomap.html">Photo mapping Uganda’s New Cities - Facebook Community Impact Micro-grant</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>1 Nov, 2021</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda in partnership with YouthMappers led a photo mapping project that was designed to enhance the quality and add more detail to the remotely contributed data from Mapping New Cities Project. In early June 2021, OpenStreetMap Uganda trained a team of Youth Mappers from the Geo YouthMappers, Team Good Mappers, Mappers for Life, and Vision Mappers on how to...</p>
-                                    </div>
-                                    <a href="photomap.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="photomap.html" class="media-box grid-featured-img">
-                                        <img src="images/1634064649291.jpg" alt="photomapping">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="morish.html">How OpenStreetMap changed my worldview</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>20 Sept, 2021</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>Five years ago, Morish Awania took up a new role as a security guard in Kampala, Uganda after missing out on an opportunity to complete his high school education due to financial constraints. Then, Morish joined the Humanitarian OpenStreetMap Team  (HOT Uganda)* as a security guard two years ago where he developed an interest in OSM as he watched his colleagues taking part in mapping activities. This marked the beginning of a new and uncharted career path for Morish...</p>
-                                    </div>
-                                    <a href="morish.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="noble.html" class="media-box grid-featured-img">
-                                        <img src="images/gps.jpg" alt="Noble Farms Training">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="noble.html">Supporting Noble Farms Uganda Ltd in Gulu</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>5 March, 2021</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda in collaboration with OpenGIS Uganda is working with Noble Farms Uganda Limited, private agricultural training and inputs provider to introduce open mapping GIS  tools and technology to improve efficiency in their work.Noble Farms Uganda Limited provides farmers with inputs that include seeds, agricultural machinery like tractors, and training on post-harvesting....</p>
-                                    </div>
-                                    <a href="noble.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="nema.html" class="media-box grid-featured-img">
-                                        <img src="images/nema1.jpg" alt="Nema Drone training">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="nema.html">Drone training with one of the staff from NEMA</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>27 Febraury, 2021</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda carried out a demonstration drone training with the GIS staff from National Environmental Management Authority (NEMA)  to equip them with the skills to use drone technology to improve monitoring and conservation of the environment across the country.....</p>
-                                    </div>
-                                    <a href="nema.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="newcities.html" class="media-box grid-featured-img">
-                                        <img src="images/current1.jpg" alt="Ntoroko Flood Drone Mapping">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="newcities.html">Mapping Of Uganda's New Cities</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>28 December, 2020</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>In line with the 15 newly created cities, OpenStreetMap Uganda recieved a grant from the OpenStreetMap Foundation to map roads and buildings in these New Cities. Currently Mbarara, Masaka and Jinja have been mapped and validation process is ongoing....</p>
-                                    </div>
-                                    <a href="newcities.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="pss.html" class="media-box grid-featured-img">
-                                        <img src="images/safe.jpg" alt="Landing site">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="pss.html">Safety On Ugandan Waters</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>10 December, 2020</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda through the safe sail project is hoping to work with local water transport and fishing boat owners/companies to test and install GPS trackers on water vessels. Low Installing GPS/Tracking Devices will allow boat owners track and monitor their boats remotely and more effectively plan their travel on water...</p>
-                                    </div>
-                                    <a href="pss.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
+<body>
 
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="ntoroko.html" class="media-box grid-featured-img">
-                                        <img src="images/IMG_20201127_130844_635.jpg" alt="Ntoroko Flood Drone Mapping">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="ntoroko.html">Ntoroko Flood Mapping Using Drone Technology</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>25 November, 2020</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda with support from the Uganda Red Cross Society from the 25th to the 28th of the November 2020 set out to assess and determine the extent of the floods in Kanara Subcounty and Kanara Town Council in Ntoroko District just south of Lake Albert using GIS, Drone Technology and Photogrammetry....</p>
-                                    </div>
-                                    <a href="ntoroko.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
+<!-- ======= Top Bar ======= -->
+<section id="topbar" class="d-flex align-items-center">
+  <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="contact-info d-flex align-items-center"> <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@mapuganda.org">info@mapuganda.org</a></i> <i class="bi bi-phone d-flex align-items-center ms-4"><span>+2567 7739 4189</span></i> </div>
+    <div class="social-links d-none d-md-flex align-items-center"> <a href="https://twitter.com/osmuganda?t=d6Ie9iJYODcCl3R4oQJVmA&s=08" class="twitter"><i class="bi bi-twitter"></i></a> <a href="https://facebook.com/OpenStreetMapUganda/" class="facebook"><i class="bi bi-facebook"></i></a> <a href="https://instagram.com/openstreetmap_uganda?utm_medium=copy_link" class="instagram"><i class="bi bi-instagram"></i></a> <a href="https://www.linkedin.com/company/openstreetmapuganda-mapuganda" class="linkedin"><i class="bi bi-linkedin"></i></a> </div>
+  </div>
+</section>
 
-                        
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="nakivale.html" class="media-box grid-featured-img">
-                                        <img src="images/image001.jpg" alt="Nakivale Refugee Settlement Drone Mapping">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="nakivale.html">Nakivale Refugee Settlement Drone Mapping</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>21 February, 2020</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>Three wonderful days from 16th to 18th February spent seeing life through the eyes of children, men and women in this place they now call home, their curiosity awakened by the sight and sound of the drone....</p>
-                                    </div>
-                                    <a href="nakivale.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="ufltraining2.html" class="media-box grid-featured-img">
-                                        <img src="images/ufl1.jpg" alt="Drone Training">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="ufltraining2.html">Uganda Flying Labs Introductory Drone Training 2.0</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>12 February, 2019</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>On 10th February 2019 in Kampala, a second introductory drone training was conducted to fulfil both the building local robotics capacity....</p>
-                                    </div>
-                                    <a href="ufltraining2.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="ufltraining.html" class="media-box grid-featured-img">
-                                        <img src="images/image3.jpg" alt="UFL Training">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="ufltraining.html">Uganda Flyings Labs Launches first Drone Training</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>17 December, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>On 16th December 2018 Uganda Flying Labs launched its UAV training program with an inaugural one-day introductory course on drones...</p>
-                                    </div>
-                                    <a href="ufltraining.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="osmgeoweek.html" class="media-box grid-featured-img">
-                                        <img src="images/geo6.png" alt="OSM Geo Week">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="osmgeoweek.html">OpenStreetMap Uganda OSM Geo Week event</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>15 November, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMapU ganda joined the global OSM community to celebrate the annual OSM Geography Awareness Week which happened on 15th November at Hive Colab...</p>
-                                    </div>
-                                    <a href="osmgeoweek.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="ugandaflyinglabs.html" class="media-box grid-featured-img">
-                                        <img src="images/ufl1.jpg" alt="Open Cities Kampala Mapathon">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="ugandaflyinglabs.html">Uganda Flying Labs response to the Bududa Landslides</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>25 October, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>The Uganda Flying Labs (OpenStreetMap and Drone Nerds Africa) with support from <a href="https://www.redcrossug.org/">Uganda Red Cross Society</a> Uganda Red Cross Society recently instigated a mission to Bududa district to assess and determine extent of damage in the villages of Bukalasi sub-county after the landslides using GIS and drone technology...</p>
-                                    </div>
-                                    <a href="ugandaflyinglabs.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="opencitiesmapathon.html" class="media-box grid-featured-img">
-                                        <img src="images/mapathon.png" alt="Open Cities Kampala Mapathon">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="opencitiesmapathon.html">UOM/Open Cities Kampala Mapathon at KCCA</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>17 October, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda conducted a mapathon using UAV imagery taken by GeoGecko for Ggaba. The event was held at KCCA for the UOM/Open Cities Kampala Project...</p>
-                                    </div>
-                                    <a href="opencitiesmapathon.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="fgm.html" class="media-box grid-featured-img">
-                                        <img src="images/fgm.png" alt="Mapathon to end FGM">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="fgm.html">Mapathon to end Female Genital Mutilation/Cutting</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>29 September, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda, in conjunction with <a href="https://crowd2map.wordpress.com/">Crowd2Map Tanzania</a>  joined a global mapathon to end Female Genital Mutilation/Cutting (FGM/C) by contributing data to OpenStreetMap...</p>
-                                    </div>
-                                    <a href="fgm.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="mappingparty.html" class="media-box grid-featured-img">
-                                        <img src="images/kisakyep.jpg" alt="Kisakye Paul">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="https://kpaulopenstreetmapggabaproject.wordpress.com/2018/09/28/a-worthwhile-and-unforgettable-experience/">Kisakye Paul blog on his Ggaba Field Mapping experience</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>September, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>One of the committed community members from Ggaba, made a blog about activities and his involvement in field mapping for the Open Cities Kampala project. Check out his experiences...</p>
-                                    </div>
-                                    <a href="https://kpaulopenstreetmapggabaproject.wordpress.com/2018/09/28/a-worthwhile-and-unforgettable-experience/" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="mappingparty.html" class="media-box grid-featured-img">
-                                        <img src="images/mappingparty.png" alt="MapUganda Mapping Party">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="mapmyvillage.html">OpenStreetMap Uganda Mapping Party</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>18 August, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>The mapping party event held on 18th August brought together different mapping communities and individuals to collect data of different points of interest. The event attracted up to 27 people who were involved in the data collection process. The tools used to collect data were OSM tracker, Street Complete and Mapillary. All data collected was uploaded to OpenStreetMap...</p>
-                                    </div>
-                                    <a href="mappingparty.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-list-item format-standard">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4">
-                                    <a href="mapmyvillage.html" class="media-box grid-featured-img">
-                                        <img src="images/vil5.jpg" alt="Map My Village">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="mapmyvillage.html">Map My Village Mapathon</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>7 July, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>The OpenStreetMap Uganda mapathon was organized by OpenStreetMap Uganda at Hive Colab. The theme of the mapathon was to map all village locations of all participants, specifically mapping roads and buildings. All these changes and edits are available on OpenStreetMap...</p>
-                                    </div>
-                                    <a href="mapmyvillage.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    	<div class="blog-list-item format-standard">
-                        	<div class="row">
-                            	<div class="col-md-4 col-sm-4">
-                                	<a href="cleanstreets.html" class="media-box grid-featured-img">
-                                        <img src="images/project3.jpg" alt="Clean Streets Kampala">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="cleanstreets.html">The Clean Streets Project</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>March, 2018</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>Clean streets – Kampala project is an initiative to provide open data for decision making, general sanitation and public health of the city dwellers. The project is based on OpenStreetMap and Open Data...</p>
-                                    </div>
-                                    <a href="cleanstreets.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    	<div class="blog-list-item">
-                        	<div class="row">
-                            	<div class="col-md-4 col-sm-4">
-                                	<a href="ed.html" class="media-box grid-featured-img">
-                                        <img src="images/board6.jpg" alt="Tinah Mutabazi">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="ed.html">Introducing the New OpenStreetMap Uganda ED</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>Dec, 2017</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>OpenStreetMap Uganda would like to introduce its new Executive Director, Tinah Manduna Mutabazi. Tinah comes to OpenStreetMap Uganda with extensive background and experience in the Information Systems and Management sector. Her experience...</p>
-                                    </div>
-                                    <a href="ed.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    	<div class="blog-list-item">
-                        	<div class="row">
-                            	<div class="col-md-4 col-sm-4">
-                                	<a href="edirisa.html" class="media-box grid-featured-img">
-                                        <img src="images/blog2.jpg" alt="Edirisa">
-                                    </a>
-                                </div>
-                                <div class="col-md-8 col-sm-8">
-                                    <h3><a href="edirisa.html">Mapping the Gorilla Highlands with Edirisa</a></h3>
-                                    <span class="meta-data grid-item-meta"><i class="fa fa-calendar"></i>Oct, 2017</span>
-                                    <div class="grid-item-excerpt">
-                                        <p>
-Edirisa is a private sector enterprise seeking to facilitate tourism as a means for economic development. Besides using multimedia tools to promote the Gorilla Highlands region, Edirisa also offers lodging and canoe trekking...</p>
-                                    </div>
-                                    <a href="edirisa.html" class="basic-link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    
-                    <div class="col-md-4 sidebar-block">
-                       
-                        <!--<div class="widget events-calendar-widget">
-                            <h3>Upcoming Events</h3>
-                            
-                            <div class="events-calendar-widget-body">
-                                <ul class="events-compact-list">
-                                    
-                                    <li class="event-list-item">-->
-                                        <!--
-                                        <span class="event-date">
-                                            <span class="month">3 March</span>
-                                            <span class="year">2019</span>
-                                        </span>
-                                    -->
-                                        <!--<div class="event-list-cont">
-                                            <h4 class="post-title"><a href="events.html">No upcoming events</a></h4>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>-->
-                        <div class="widget sidebar-widget widget_categories">
-                            <h3>Our Current Projects</h3>
-                            <ul>
-                                <li><a href="rapidresponse.html">Rapid Response Project</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget sidebar-widget widget_categories">
-                            <h3>Our past Projects</h3>
-                            <ul>
-                                <li><a href="paratransit.html">Kampala Paratransit Project</a></li>
-                                <li><a href="nakivale.html">Nakivale Refugee Settlment Drone Mapping</a></li>
-                                <li><a href="uom.html">Open Cites Kampala</a></li>
-                                <li><a href="cleanstreets.html" target="_blank">Clean Streets Kampala</a></li>
-                                <li><a href="https://blog.mapillary.com/update/2017/11/06/behind-the-scenes-sotm-africa.html">State of the Map Africa</a></li>
-                                <li><a href="https://www.hotosm.org/updates/2017-02-06_kicking_off_the_%E2%80%9Ccrowdsourcing_non-camp_refugee_data%E2%80%9D_project">Uganda Crowdsourcing Non-Camp Refugee Data</a></li>
-                            </ul>
-                        </div>
-                        <div class="widget widget_testimonials">
-                        	<h3>What people say about OpenStreetMap Uganda</h3>
-                            <div class="carousel-wrapper">
-                                <div class="row">
-                                    <ul class="owl-carousel carousel-fw" id="testimonials-slider" data-columns="1" data-autoplay="5000" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="1" data-items-desktop-small="1" data-items-tablet="1" data-items-mobile="1">
-                                        <li class="item">
-                                            <div class="testimonial-block">
-                                                <blockquote>
-                                                    <p>All our humanity force continues to prove itself with great attachment to mapping, proffesionalism, commitment and client care adding to reality to help you know where, what and how things are for a sustainable environment.</p>
-                                                </blockquote>
-                                                <div class="testimonial-avatar"><img src="images/story1.jpg" alt="" width="70" height="70"></div>
-                                                <div class="testimonial-info">
-                                                    <div class="testimonial-info-in">
-                                                        <strong>Stella Wava - YouthMapper</strong>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="testimonial-block">
-                                                <blockquote>
-                                                    <p>As a growing community in Uganda today, OpenStreetMap Uganda is having a great impact on the lives of individuals in solving some of the world's problems today.</p>
-                                                </blockquote>
-                                                <div class="testimonial-avatar"><img src="images/board1.jpg" alt="Geoffrey Kateregga" width="70" height="70"></div>
-                                                <div class="testimonial-info">
-                                                    <div class="testimonial-info-in">
-                                                        <strong>Geoffrey Kateregga - Board Chairman</strong>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Site Footer -->
-    <div class="site-footer parallax parallax3" style="background-image:url(images/blog10.jpg)">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-md-4 col-sm-4">
-                	<div class="widget footer_widget">
-                    	
-                        <p style="color:black"><img src="images/updatelogo.png" alt="logo"><strong> OpenStreetMap Uganda</strong></p>
-                        <p style="color: black;"><strong>Connect with us</strong></p>
-                        <ul class="social-icons-rounded social-icons-colored">
-                            <li class="facebook"><a href="https://www.facebook.com/mapuganda/"><i class="fa fa-facebook-f" style="color: black;"></i></a></li>
-                            <li class="twitter"><a href="https://twitter.com/mapuganda"><i class="fa fa-twitter" style="color: black;"></i></a></li>
-                            <li class="instagram"><a href="https://www.instagram.com/openstreetmapuganda/"><i class="fa fa-instagram" style="color: black;"></i></a></li>
-                        </ul>
-                        <br />
-                        <p style="color: black;"><strong>Our Address:</strong></p>
-                        <p style="color: black;">Plot 90, Kanjokya House<br />
-                        	4th Floor, Hive Colab<br />
-                        	Kanjokya Street, Kamwokya<br />
-                            Kampala, Uganda<br />
-                        </p>
-                    </div>
-                </div>
-            	<div class="col-md-4 col-sm-4">
-                	<div class="widget footer_widget widget_links">
-                    	<h4 class="widgettitle" style="color: black;">More..</h4>
-                        <ul>
-                        	<li><a href="about.html" style="color: black;">About</a></li>
-                        	<li><a href="donate.html" style="color: black;">Donate</a></li>
-                        	<li><a href="staff.html" style="color: black;">Meet our team</a></li>
-                        </ul>
-                    </div>
-                </div>
-            	<div class="col-md-4 col-sm-4">
-                	<div class="widget footer_widget">
-                    	<h4 class="widgettitle" style="color: black;">We are on Twitter</h4>
-                        
-                        <a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/mapuganda?ref_src=twsrc%5Etfw" style="color: black;">Tweets by OpenStreetMap Uganda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1 class="logo"><a href="index.html"><img src="assets/img/Logo.png" alt="logo"> OSM Uganda<span>.</span></a></h1>
+    <!-- Uncomment below if you prefer to use an image logo --> 
+    <!--<a href="index.html" class="logo"><img src="assets/img/MapUganda_Logo-removebg-preview.png" alt=""></a>-->
     
-    <!-- Site Footer -->
-    <div class="site-footer-bottom">
-    	<div class="container">
-        	<div class="row">
-            	<div class="text-align-center">
-                	<div class="copyrights-col-center">
-                    	<p>&copy; 2020. All Rights Reserved</p>
-                    </div>
-                </div>
-             </div>
-         </div>
-      	</div>
-     </div>
-  	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link active" href="blog.html">Blog</a></li>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link" href="team.html">Team</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+        <li><a class="nav-link" href="membership.html">Membership</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+    <!-- .navbar --> 
     
-<!-- Donate Form Modal -->
-<div class="modal fade" id="DonateModal" tabindex="-1" role="dialog" data-backdrop="static">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content text-align-center">
-        
-        	
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		
-      		</div>
-            <h2>Donate with us</h2>
-      		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="X648KLFAZ8SR6">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-      		
-    	</div>
-  	</div>
+  </div>
+</header>
+<!-- End Header --> 
+<!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blogs</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Blogs</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+ <!-- ======= Team Section ======= -->
+<section id="team" class="team section-bg">
+  
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Blogs</h2>
+      <h3>Highlighted <span>Projects</span></h3>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-lg-5">
+          <img src="assets/img/adai.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-lg-7">
+          <div class="card-body">
+            <h5 class="card-title">AFRICA DIGITAL ACCESS INITIATIVE (ADAI)</h5>
+            <p class="card-text">This programme is aimed at introducing the Africa Digital Access Initiative platform to over ten thousand (10,000) teachers in Uganda and it is focussing on equipping teachers and students with ICT skills and  access to digital equipment.This initiative is to enhance student and teacher hands-on learning in schools especially in the remote areas of Uganda where there is no or limited access to computers in schools...</p>
+            <br><hr>
+            <div id="textbox">
+              <p class="alignleft">Status: Ongoing</p>
+              <p class="alignright"><a href="adai.html">Learn more</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-lg-5">
+          <img src="assets/img/intern1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-lg-7">
+          <div class="card-body">
+            <h5 class="card-title">IMPACT OF OPENSTREETMAP UGANDA INTERNSHIP PROGRAM IN THE COMMUNITY</h5>
+            <p class="card-text">OpenStreetMap Uganda developed the internship program to educate and involve more people in the OpenStreetMap community. This gives them an opportunity to contribute and participate in improving their communities through OpenStreetMap data creation and application to community challenges. They are also skilled in digital & soft skill sets that empower  them in society....</p>
+            <br><hr>
+            <div id="textbox">
+              <p class="alignleft">Status: Ongoing</p>
+              <p class="alignright"><a href="internship1.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-lg-5">
+          <img src="assets/img/okw.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-lg-7">
+          <div class="card-body">
+            <h5 class="card-title">MAPPING MANUFACTURERS CAPABILITIES</h5>
+            <p class="card-text">OpenStreetMap Uganda team mapped Manufacturers capabilities around Kampala industrial Area, Namanve Industrial Park and other areas around Kampala and Greater Kampala. During this data collection exercise we targeted large, medium and small scale manufacturing facilities in order to boost local manufacturing and supply. We were able to collect data from over 400 manufacturers...</p>
+            <br><br><hr>
+            <div id="textbox">
+              <p class="alignleft">Status: Complete</p>
+              <p class="alignright"><a href="okw.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- End Highlited Section --> 
+ <section>
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h3>More <span>Projects</span></h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/morish.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Journey of Awania Morish</h5>
+        <div id="textbox">
+          <p class="alignleft">Status: Complete</p>
+          <p class="alignright"><a href="awania.html">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/classroom.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CPTCs and CCs Mapping Project</h5>
+        <div id="textbox">
+          <p class="alignleft">Status: Complete</p>
+          <p class="alignright"><a href="cptc.html">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/paratransit.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kampala Paratransit Project</h5>
+        <div id="textbox">
+          <p class="alignleft">Status: Complete</p>
+          <p class="alignright"><a href="">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/photomap.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Photo mapping Uganda’s New Cities</h5>
+        <div id="textbox">
+          <p class="alignleft">Status: Complete</p>
+          <p class="alignright"><a href="">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/rapid.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rapid Response</h5>
+        <div id="textbox">
+          <p class="alignleft">Status: Complete</p>
+          <p class="alignright"><a href="">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+  </div>
+</section>
+	
+ 
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Contact</h2>
+      <h3><span>Contact Us</span></h3>
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-6">
+        <div class="info-box mb-4"> <i class="bx bx-map"></i>
+          <h3>Our Address</h3>
+          <p>Plot 90,Hive Colab 4th Floor, Kanjokya House, Kanjokya Street</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4"> <i class="bx bx-envelope"></i>
+          <h3>Email Us</h3>
+          <p>info@mapuganda.org</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4"> <i class="bx bx-phone-call"></i>
+          <h3>Call Us</h3>
+          <p>+2567 0134 4950 </p>
+        </div>
+      </div>
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-6 ">
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=32.591478824615486%2C0.3402469425593237%2C32.597465515136726%2C0.343250963217874&amp;layer=mapnik&amp;marker=0.3417489530060313%2C32.5944721698761" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=0.34175&amp;mlon=32.59447#map=18/0.34175/32.59447">View Larger Map</a></small>
+      </div>
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
 
-<script src="js/jquery-2.1.3.min.js"></script> <!-- Jquery Library Call -->
-<script src="vendor/magnific/jquery.magnific-popup.min.js"></script> <!-- PrettyPhoto Plugin -->
-<script src="js/ui-plugins.js"></script> <!-- UI Plugins -->
-<script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
-<script src="vendor/owl-carousel/js/owl.carousel.min.js"></script> <!-- Owl Carousel -->
-<script src="js/bootstrap.js"></script> <!-- UI -->
-<script src="js/init.js"></script> <!-- All Scripts -->
-<script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="js/circle-progress.js"></script> <!-- Circle Progress Bars -->
-<script src="style-switcher/js/jquery_cookie.js"></script>
-<script src="style-switcher/js/script.js"></script>
+</main>
+<!-- End #main --> 
 
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>OpenStreetMap Uganda<span>.</span></h3>
+          <p> Plot 90, Kanjokya House <br>
+            4th Floor, Hive Colab<br>
+            Kanjokya Street, Kamwokya <br>
+            	Kampala, Uganda					<br>
+			  
+            <strong>Phone:</strong> +2567 0134 4950<br>
+            <strong>Email:</strong> info@mapuganda.org<br>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="board.html">Board</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Social Networks</h4>
+          <p>Please follow us on our social media networks</p>
+          <div class="social-links mt-3"> <a href="https://twitter.com/osmuganda?t=d6Ie9iJYODcCl3R4oQJVmA&s=08" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="https://facebook.com/OpenStreetMapUganda/" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="https://instagram.com/openstreetmap_uganda?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a href="https://www.linkedin.com/company/openstreetmapuganda-mapuganda" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <div class="widget footer_widget">
+            <h4 class="widgettitle" style="color: black">We are on Twitter</h4>
+            <a class="twitter-timeline" data-height="300" href="https://twitter.com/osmuganda?ref_src=twsrc%5Etfw">Tweets by osmuganda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="container py-4">
+    <div class="copyright"> &copy; Copyright <strong><span>OSM UG</span></strong> All Rights Reserved </div>
+	</div>
+   
+</footer>
+<!-- End Footer -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> 
+
+<!-- Vendor JS Files --> 
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script> 
+<script src="assets/vendor/aos/aos.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script> 
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> 
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script> 
+<script src="assets/vendor/php-email-form/validate.js"></script> 
+
+<!-- Template Main JS File --> 
+<script src="assets/js/main.js"></script>
 </body>
 </html>
